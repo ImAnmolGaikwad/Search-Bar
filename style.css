@@ -1,0 +1,38 @@
+.container{
+    height: fit-content;
+    width: 50dvw;
+    padding-bottom: 10px;
+    /* background-color: aquamarine; */
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: #4a4a4a;
+}
+
+.search{
+    padding-bottom: 10px;
+}
+
+.search input{
+    width: 20vw;
+}
+
+h1{
+    padding-top: 20px;
+    color: white;
+}
+
+.fruits{
+    /* width: 25vw; */
+    font-size: 25px;
+    color: #caf5c0;
+}
+
+@media screen and (max-width:400px) {
+    .search input{
+        width: 30vw;
+    }
+}
