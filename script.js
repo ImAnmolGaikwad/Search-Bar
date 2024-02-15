@@ -7,8 +7,6 @@ function searchFruits(){
         // console.log(p1[0].innerText.toLowerCase());
 
         // console.log(data[i].children[0].innerHTML.toLowerCase().indexOf(search));
-
-        
         console.log(p1.indexOf(search))
         
         if(p1.indexOf(search)!==-1){
